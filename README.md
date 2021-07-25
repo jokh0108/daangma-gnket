@@ -4,20 +4,20 @@
 
 ## 스택 및 도구
 
-| 스택 및 도구        | 사용중      | 사용 고려중                           |
-| ------------------- | ----------- | ------------------------------------- |
-| 버전 관리 시스템    | Git, Github |                                       |
-| 언어 및 프레임워크  |             | React, JavaScript ES6+, TypeScript    |
-| 라우팅              |             | React-Router                          |
-| 상태 관리           |             | Redux, Redux-saga, Redux-Thunk, Immer |
-| UI 및 스타일        |             | Styled Component                      |
-| 단위 테스트         |             | Jest, Mocha                           |
-| UI 테스트           |             | Storybook                             |
-| 환경 관리           |             | Webpack, Babel, Rollup                |
-| 코드 품질 관리 도구 |             | ESLint, Stylelint, Prettier           |
-| AWS                 |             | Route53, Cloudfront, S3               |
-| CI/CD               |             | Jenkins, CircleCI, ...                |
-| 이슈 트래킹         |             | Jira, Notion                          |
+| 스택 및 도구        | 사용중                             | 사용 고려중                           |
+| ------------------- | ---------------------------------- | ------------------------------------- |
+| 버전 관리 시스템    | Git, Github                        |                                       |
+| 언어 및 프레임워크  | React, JavaScript ES6+, TypeScript |                                       |
+| 라우팅              |                                    | React-Router                          |
+| 상태 관리           |                                    | Redux, Redux-saga, Redux-Thunk, Immer |
+| UI 및 스타일        |                                    | Styled Component                      |
+| 단위 테스트         |                                    | Jest, Mocha                           |
+| UI 테스트           |                                    | Storybook                             |
+| 번들러 및 컴파일러  | Webpack, Babel                     |                                       |
+| 코드 품질 관리 도구 | ESLint, Prettier                   |                                       |
+| AWS                 |                                    | Route53, Cloudfront, S3               |
+| CI/CD               |                                    | Jenkins, CircleCI, ...                |
+| 이슈 트래킹         | Notion                             | Jira, Notion                          |
 
 ## 기술
 
@@ -35,13 +35,13 @@
 ## 규칙
 
 - [Commit Convention](https://doublesprogramming.tistory.com/256)
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) [eslint 예정]
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ## 관련 문서
 
 - [Design Documentation](https://chamtuna.notion.site/Design-Documentation-e8718f5561cb4d91ad2afbbc635700a9)
 - [Development Log](https://www.notion.so/chamtuna/041057c41a39450180a58dbaef6c6d9c)
-- Issue Tracking(예정)
+- [Issue Tracking](https://www.notion.so/chamtuna/464c7517c06f49b0986e8e868735f5a0?v=8a994d24e73144a1b350c88ae6abe658)
 
 ## 기타
 
