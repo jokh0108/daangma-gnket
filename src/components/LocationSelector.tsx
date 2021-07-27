@@ -1,4 +1,5 @@
 import React, { ChangeEvent, useState } from 'react';
+import generateUid from '../utils/generateUid';
 
 interface Props {
   locations: string[];
@@ -12,7 +13,9 @@ function LocationSelector({ locations }: Props) {
   return (
     <select className="LocationSelector" value={selection} onChange={onChange}>
       {locations.map(location => (
-        <option value={location}>{location}</option>
+        <option key={generateUid()} value={location}>
+          {location}
+        </option>
       ))}
       <option value="setting">내 동네 설정</option>
     </select>
