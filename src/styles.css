@@ -8,14 +8,17 @@ body {
 }
 
 .MainTemplate {
-  width: 480px;
+  display: grid;
+  grid-template-rows: 1fr 13fr 1fr;
+
+  width: 336px;
   height: 720px;
+
   background-color: white;
   border-radius: 16px;
 }
 
 .Header {
-  height: 32px;
   padding: 8px 16px;
   display: flex;
   justify-content: space-between;
