@@ -1,7 +1,12 @@
 import React from 'react';
 import {
+  IoChatbubblesOutline,
+  IoHomeOutline,
+  IoLocationOutline,
   IoMenuOutline,
+  IoNewspaperOutline,
   IoNotificationsOutline,
+  IoPersonOutline,
   IoSearchOutline,
 } from 'react-icons/io5';
 
@@ -9,6 +14,7 @@ import Header from './components/Header';
 import HeaderButtons from './components/HeaderButtons';
 import LocationSelector from './components/LocationSelector';
 import MainTemplate from './components/MainTemplate';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
@@ -27,7 +33,16 @@ function App() {
         }
       />
       <div>메인뷰</div>
-      <div>네비게이션 메뉴</div>
+      {/* TODO: Router 기능 추가 */}
+      <Navigation
+        menus={[
+          { icon: <IoHomeOutline />, menu: '홈' },
+          { icon: <IoNewspaperOutline />, menu: '동네생활' },
+          { icon: <IoLocationOutline />, menu: '내 근처' },
+          { icon: <IoChatbubblesOutline />, menu: '채팅' },
+          { icon: <IoPersonOutline />, menu: '나의 당마' },
+        ]}
+      />
     </MainTemplate>
   );
 }
