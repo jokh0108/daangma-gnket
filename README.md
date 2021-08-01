@@ -43,9 +43,9 @@
 
 ## 관련 문서
 
-- [Design Documentation](https://chamtuna.notion.site/Design-Documentation-e8718f5561cb4d91ad2afbbc635700a9)
-- [Development Log](https://www.notion.so/chamtuna/041057c41a39450180a58dbaef6c6d9c)
-- [Issue Tracking](https://www.notion.so/chamtuna/464c7517c06f49b0986e8e868735f5a0?v=8a994d24e73144a1b350c88ae6abe658)
+- [Design Documentation](https://www.notion.so/Design-Documentation-e8718f5561cb4d91ad2afbbc635700a9) - 어떻게 개발할지에 관해 기록한 문서
+- [Development Log](https://www.notion.so/041057c41a39450180a58dbaef6c6d9c) - 개발했던 내용과 그 과정에서 든 생각 기록 문서
+- [Issue Tracking](https://www.notion.so/464c7517c06f49b0986e8e868735f5a0) - 이슈 트래킹 문서
 
 ## 기타
 
