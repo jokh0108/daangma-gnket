@@ -9,6 +9,7 @@ import Header from '../components/Header';
 import HeaderButtons from '../components/HeaderButtons';
 import LocationSelector from '../components/LocationSelector';
 import MainTemplate from '../components/MainTemplate';
+import ProductList from '../components/ProductList';
 
 function HomePage() {
   return (
@@ -26,7 +27,7 @@ function HomePage() {
           />
         }
       />
-      <div>프로덕트</div>
+      <ProductList />
     </MainTemplate>
   );
 }

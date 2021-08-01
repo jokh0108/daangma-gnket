@@ -51,3 +51,49 @@ body {
 .NavigationName {
   font-size: small;
 }
+
+.ProductList {
+  display: grid;
+  grid-auto-rows: 120px;
+  overflow: scroll;
+  padding: 8px;
+}
+
+.ProductItem {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  align-items: center;
+}
+
+.ProductItem:not(:last-child) {
+  border-bottom: 1px solid rgba(200, 200, 200);
+}
+
+.ProductThumbnail {
+  width: 88px;
+  height: 88px;
+  border-radius: 8px;
+}
+
+.ProductInfo {
+  display: flex;
+  flex-direction: column;
+}
+.ProductInfo * {
+  margin: 4px;
+}
+
+.ProductTitle {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.ProductLocationAndUpdateAt {
+  font-size: 12px;
+  color: gray;
+}
+
+.ProductPrice {
+  font-size: 14px;
+  font-weight: bold;
+}
