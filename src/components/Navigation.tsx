@@ -1,11 +1,26 @@
 import React from 'react';
-import NavigationMenu, { NavigationMenuProps } from './NavigationMenu';
+import {
+  IoChatbubblesOutline,
+  IoHomeOutline,
+  IoLocationOutline,
+  IoNewspaperOutline,
+  IoPersonOutline,
+} from 'react-icons/io5';
+import NavigationMenu from './NavigationMenu';
 
-interface Props {
-  menus: NavigationMenuProps[];
-}
+const menus = [
+  { icon: <IoHomeOutline />, menu: '홈', path: '/' },
+  {
+    icon: <IoNewspaperOutline />,
+    menu: '동네생활',
+    path: '/town-life',
+  },
+  { icon: <IoLocationOutline />, menu: '내 근처', path: '/my-nearby' },
+  { icon: <IoChatbubblesOutline />, menu: '채팅', path: '/chat' },
+  { icon: <IoPersonOutline />, menu: '나의 당마', path: '/me' },
+];
 
-function Navigation({ menus }: Props) {
+function Navigation() {
   return (
     <div className="Navigation">
       {menus.map(({ icon, menu, path }) => (
