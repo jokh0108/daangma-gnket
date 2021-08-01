@@ -12,7 +12,7 @@
 | ------------------- | ---------------------------------- | ------------------------------------- |
 | 버전 관리 시스템    | Git, Github                        |                                       |
 | 언어 및 프레임워크  | React, JavaScript ES6+, TypeScript |                                       |
-| 라우팅              |                                    | React-Router                          |
+| 라우팅              | React-Router                       |                                       |
 | 상태 관리           |                                    | Redux, Redux-saga, Redux-Thunk, Immer |
 | UI 및 스타일        | CSS                                | Styled Component                      |
 | 단위 테스트         |                                    | Jest, Mocha                           |
@@ -21,7 +21,7 @@
 | 코드 품질 관리 도구 | ESLint, Prettier                   |                                       |
 | AWS                 |                                    | Route53, Cloudfront, S3               |
 | CI/CD               |                                    | Jenkins, CircleCI, ...                |
-| 이슈 트래킹         | Notion                             | Jira, Notion                          |
+| 이슈 트래킹         | Notion                             |                                       |
 
 ## 기술
 
