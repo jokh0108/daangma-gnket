@@ -9,8 +9,8 @@ function MePage() {
   return (
     <MainTemplate>
       <Header
-        leftChildren={<div>나의 당마</div>}
-        rightChildren={<HeaderButtons buttons={[<IoSettingsOutline />]} />}
+        leftChild={<div>나의 당마</div>}
+        rightChild={<HeaderButtons buttons={[<IoSettingsOutline />]} />}
       />
       <div>Me Page</div>
     </MainTemplate>

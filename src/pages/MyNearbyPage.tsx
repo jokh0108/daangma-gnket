@@ -11,8 +11,8 @@ function MyNearbyPage() {
   return (
     <MainTemplate>
       <Header
-        leftChildren={<div>내 근처</div>}
-        rightChildren={
+        leftChild={<div>내 근처</div>}
+        rightChild={
           <HeaderButtons
             buttons={[
               <TiPencil />,

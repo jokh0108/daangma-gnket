@@ -6,7 +6,7 @@ import MainTemplate from '../components/MainTemplate';
 function ChatPage() {
   return (
     <MainTemplate>
-      <Header leftChildren={<div>채팅</div>} />
+      <Header leftChild={<div>채팅</div>} />
       <div>Chat Page</div>
     </MainTemplate>
   );

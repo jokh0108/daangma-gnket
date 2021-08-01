@@ -14,8 +14,8 @@ function TownLifePage() {
   return (
     <MainTemplate>
       <Header
-        leftChildren={<LocationSelector locations={['성수동', '삼성동']} />}
-        rightChildren={
+        leftChild={<LocationSelector locations={['성수동', '삼성동']} />}
+        rightChild={
           <HeaderButtons
             buttons={[
               <IoSearchOutline />,

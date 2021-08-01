@@ -14,8 +14,8 @@ function HomePage() {
   return (
     <MainTemplate>
       <Header
-        leftChildren={<LocationSelector locations={['성수동', '삼성동']} />}
-        rightChildren={
+        leftChild={<LocationSelector locations={['성수동', '삼성동']} />}
+        rightChild={
           <HeaderButtons
             buttons={[
               // TODO: IconButton 혹은 Button 컴포넌트를 만들어서 클릭 이벤트 가능하게 만들기.

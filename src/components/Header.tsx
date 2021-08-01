@@ -1,21 +1,21 @@
 import React, { ReactNode } from 'react';
 
 interface Props {
-  leftChildren: ReactNode;
-  rightChildren?: ReactNode;
+  leftChild: ReactNode;
+  rightChild?: ReactNode;
 }
 
-function Header({ leftChildren, rightChildren = null }: Props) {
+function Header({ leftChild, rightChild = null }: Props) {
   return (
     <div className="Header">
-      <div>{leftChildren}</div>
-      <div>{rightChildren}</div>
+      <div>{leftChild}</div>
+      <div>{rightChild}</div>
     </div>
   );
 }
 
 Header.defaultProps = {
-  rightChildren: null,
+  rightChild: null,
 };
 
 export default Header;
