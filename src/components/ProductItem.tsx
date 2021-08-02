@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoChatbubblesOutline, IoHeartOutline } from 'react-icons/io5';
 import { Product } from '../apis/api';
 
 interface Props {
@@ -6,7 +7,7 @@ interface Props {
 }
 
 function ProductItem({
-  product: { title, location, updatedAt, price, thumbnail },
+  product: { title, location, updatedAt, price, thumbnail, chats, likes },
 }: Props) {
   const now = new Date();
   const elapsed = now.getTime() - updatedAt.getTime();
@@ -19,6 +20,20 @@ function ProductItem({
           {location} · {elapsed}초 전
         </span>
         <span className="ProductPrice">{price.toLocaleString()}원</span>
+        <div className="ProductInteractions">
+          {chats.length > 0 && (
+            <span className="ProductLike">
+              <IoHeartOutline />
+              {chats.length}
+            </span>
+          )}
+          {likes.length > 0 && (
+            <span className="ProductChat">
+              <IoChatbubblesOutline />
+              {likes.length}
+            </span>
+          )}
+        </div>
       </div>
     </div>
   );
