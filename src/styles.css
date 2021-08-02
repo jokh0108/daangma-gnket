@@ -78,9 +78,11 @@ body {
 .ProductInfo {
   display: flex;
   flex-direction: column;
+  padding: 8px;
 }
-.ProductInfo * {
-  margin: 4px;
+
+.ProductInfo > * {
+  margin-bottom: 4px;
 }
 
 .ProductTitle {
@@ -96,4 +98,25 @@ body {
 .ProductPrice {
   font-size: 14px;
   font-weight: bold;
+}
+
+.ProductInteractions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-top: 4px;
+  gap: 4px;
+
+  color: gray;
+}
+
+.ProductLike {
+  display: flex;
+  align-items: end;
+}
+
+.ProductChat {
+  display: flex;
+  align-items: end;
 }
