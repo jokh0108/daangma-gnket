@@ -4,8 +4,8 @@ export interface Product {
   updatedAt: Date;
   price: number;
   thumbnail: string;
-  chats: string[];
-  likes: string[];
+  chats: number;
+  likes: number;
 }
 
 export const products: Product[] = [
@@ -16,8 +16,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: ['1', '2', '3', '4', '5', '6'],
-    likes: ['1', '2', '3'],
+    chats: 6,
+    likes: 3,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -26,8 +26,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: ['1', '2'],
-    likes: [],
+    chats: 2,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -36,8 +36,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: ['3', '4'],
+    chats: 0,
+    likes: 2,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -46,8 +46,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -56,8 +56,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -66,8 +66,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -76,8 +76,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -86,8 +86,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -96,8 +96,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -106,8 +106,8 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
   {
     title: '자랑스러운 에어팟 프로',
@@ -116,7 +116,7 @@ export const products: Product[] = [
     price: 329412,
     thumbnail:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mtHGJhP-LmL3nYeFWNXKHmUmxx_X90NQSQ&usqp=CAU',
-    chats: [],
-    likes: [],
+    chats: 0,
+    likes: 0,
   },
 ];

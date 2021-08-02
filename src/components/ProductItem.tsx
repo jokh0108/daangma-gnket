@@ -21,16 +21,16 @@ function ProductItem({
         </span>
         <span className="ProductPrice">{price.toLocaleString()}원</span>
         <div className="ProductInteractions">
-          {chats.length > 0 && (
+          {chats > 0 && (
             <span className="ProductLike">
               <IoHeartOutline />
-              {chats.length}
+              {chats}
             </span>
           )}
-          {likes.length > 0 && (
+          {likes > 0 && (
             <span className="ProductChat">
               <IoChatbubblesOutline />
-              {likes.length}
+              {likes}
             </span>
           )}
         </div>
