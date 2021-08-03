@@ -113,10 +113,8 @@ body {
 
 .ProductLike {
   display: flex;
-  align-items: end;
 }
 
 .ProductChat {
   display: flex;
-  align-items: end;
 }
