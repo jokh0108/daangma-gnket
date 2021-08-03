@@ -31,6 +31,11 @@ body {
   gap: 16px;
 }
 
+.HeaderButton {
+  display: flex;
+  align-items: center;
+}
+
 .Navigation {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
