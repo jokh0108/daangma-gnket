@@ -109,6 +109,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  height: 16px;
 
   margin-top: 4px;
   gap: 4px;
@@ -122,4 +123,14 @@ body {
 
 .ProductChat {
   display: flex;
+}
+
+.CustomLink,
+.CustomLink:focus,
+.CustomLink:hover,
+.CustomLink:visited,
+.CustomLink:link,
+.CustomLink:active {
+  text-decoration: none;
+  color: black;
 }
