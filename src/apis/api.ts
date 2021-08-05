@@ -1,4 +1,5 @@
 export interface Product {
+  id: string;
   title: string;
   location: string;
   updatedAt: Date;
@@ -10,6 +11,7 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: '1',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -20,6 +22,7 @@ export const products: Product[] = [
     likes: 3,
   },
   {
+    id: '2',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -30,6 +33,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '3',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -40,6 +44,7 @@ export const products: Product[] = [
     likes: 2,
   },
   {
+    id: '4',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -50,6 +55,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '5',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -60,6 +66,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '6',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -70,6 +77,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '7',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -80,6 +88,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '8',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -90,6 +99,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '9',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -100,6 +110,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '10',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),
@@ -110,6 +121,7 @@ export const products: Product[] = [
     likes: 0,
   },
   {
+    id: '11',
     title: '자랑스러운 에어팟 프로',
     location: '관악구 신림동',
     updatedAt: new Date(),

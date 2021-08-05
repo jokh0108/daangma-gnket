@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import ProductDetail from './pages/ProductDetail';
 import ChatPage from './pages/ChatPage';
 import HomePage from './pages/HomePage';
 import MePage from './pages/MePage';
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/me">
           <MePage />
+        </Route>
+        <Route path="/products/:id">
+          <ProductDetail />
         </Route>
       </Switch>
     </BrowserRouter>
