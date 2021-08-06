@@ -6,24 +6,28 @@ import { BiBarcodeReader } from 'react-icons/bi';
 import Header from '../components/Header';
 import HeaderButtons from '../components/HeaderButtons';
 import MainTemplate from '../components/MainTemplate';
+import Navigation from '../components/Navigation';
 
 function MyNearbyPage() {
   return (
-    <MainTemplate>
-      <Header
-        leftChild={<div>내 근처</div>}
-        rightChild={
-          <HeaderButtons
-            buttons={[
-              <TiPencil />,
-              <BiBarcodeReader />,
-              <IoNotificationsOutline />,
-            ]}
-          />
-        }
-      />
-      <div>My Nearby Page</div>
-    </MainTemplate>
+    <MainTemplate
+      header={
+        <Header
+          leftChild={<div>내 근처</div>}
+          rightChild={
+            <HeaderButtons
+              buttons={[
+                <TiPencil />,
+                <BiBarcodeReader />,
+                <IoNotificationsOutline />,
+              ]}
+            />
+          }
+        />
+      }
+      main={<div>My Nearby Page</div>}
+      footer={<Navigation />}
+    />
   );
 }
 

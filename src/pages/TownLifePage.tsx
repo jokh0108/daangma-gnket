@@ -9,24 +9,28 @@ import Header from '../components/Header';
 import HeaderButtons from '../components/HeaderButtons';
 import LocationSelector from '../components/LocationSelector';
 import MainTemplate from '../components/MainTemplate';
+import Navigation from '../components/Navigation';
 
 function TownLifePage() {
   return (
-    <MainTemplate>
-      <Header
-        leftChild={<LocationSelector locations={['성수동', '삼성동']} />}
-        rightChild={
-          <HeaderButtons
-            buttons={[
-              <IoSearchOutline />,
-              <IoMenuOutline />,
-              <IoNotificationsOutline />,
-            ]}
-          />
-        }
-      />
-      <div>Town Life Page</div>
-    </MainTemplate>
+    <MainTemplate
+      header={
+        <Header
+          leftChild={<LocationSelector locations={['성수동', '삼성동']} />}
+          rightChild={
+            <HeaderButtons
+              buttons={[
+                <IoSearchOutline />,
+                <IoMenuOutline />,
+                <IoNotificationsOutline />,
+              ]}
+            />
+          }
+        />
+      }
+      main={<div>Town Life Page</div>}
+      footer={<Navigation />}
+    />
   );
 }
 

@@ -1,15 +1,17 @@
 import React, { ReactNode } from 'react';
-import Navigation from './Navigation';
 
 interface Props {
-  children: ReactNode;
+  header: ReactNode;
+  main: ReactNode;
+  footer: ReactNode;
 }
 
-function MainTemplate({ children }: Props) {
+function MainTemplate({ header, main, footer }: Props) {
   return (
     <div className="MainTemplate">
-      {children}
-      <Navigation />
+      {header}
+      {main}
+      {footer}
     </div>
   );
 }
