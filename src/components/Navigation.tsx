@@ -6,6 +6,7 @@ import {
   IoNewspaperOutline,
   IoPersonOutline,
 } from 'react-icons/io5';
+import Footer from './Footer';
 import NavigationMenu from './NavigationMenu';
 
 const menus = [
@@ -22,11 +23,13 @@ const menus = [
 
 function Navigation() {
   return (
-    <div className="Navigation">
-      {menus.map(({ icon, menu, path }) => (
-        <NavigationMenu icon={icon} menu={menu} path={path} />
-      ))}
-    </div>
+    <Footer>
+      <div className="Navigation">
+        {menus.map(({ icon, menu, path }) => (
+          <NavigationMenu icon={icon} menu={menu} path={path} />
+        ))}
+      </div>
+    </Footer>
   );
 }
 
